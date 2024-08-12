@@ -30,7 +30,7 @@ This repository provides a comprehensive Jupyter notebook template for setting u
 
 ## 0. Installation and Requirements
 
-Before running any of the notebooks, ensure that you have installed the necessary dependencies. You can install them directly by running:
+Before running any of the notebooks, ensure that you have installed the necessary dependencies. You can install them directly by running into your terminal window:
 
 ```bash
 pip install -r requirements.txt
