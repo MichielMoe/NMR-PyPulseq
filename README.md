@@ -1,24 +1,22 @@
-# Magnetic Resonance Simulation Template
+# MR Sequence Simulation Template
 
 ## Introduction
 
-This repository contains a Jupyter notebook that demonstrates how to set up and simulate magnetic resonance (MR) sequences using the `pypulseq` and `MRzeroCore` libraries. The notebook exercises guide users through configuring system parameters, defining various MR events, constructing sequences, and simulating MR data using custom or pre-defined phantoms.
+This repository provides a comprehensive Jupyter notebook template for setting up and simulating magnetic resonance (MR) sequences using the `pypulseq` and `MRzeroCore` libraries. The notebook guides users through the process of configuring system parameters, defining various MR events, constructing sequences, and simulating MR data using custom or pre-defined phantoms.
 
-### Key Sections
-
-1. **System Setup**: Configuration of essential system parameters like gradient strength, slew rate, and RF pulse properties.
-2. **Event Definitions**: Definition of various MR events, including RF pulses, gradient events, and ADC events.
-3. **Sequence Construction**: Combining defined events into a coherent MR sequence and writing sequences to external files.
-4. **Sequence Application**: Applying constructed sequences to MR phantoms, simulating MR data, and visualizing the results.
-5. **Simulating the Sequence**: Running the simulation using custom or pre-defined phantoms.
+### Key Sections:
+1. **System Setup**: Configure essential system parameters like gradient strength, slew rate, and RF pulse properties.
+2. **Event Definitions**: Define MR events such as RF pulses, gradient events, and ADC events.
+3. **Sequence Construction**: Combine the defined events into a coherent MR sequence and write it to external files.
+4. **Sequence Application**: Apply the constructed sequences to MR phantoms, simulate MR data, and visualize results.
+5. **Simulating the Sequence**: Execute the sequence on a phantom model and analyze the outcomes.
 
 ## Table of Contents
-
 - [1. System Setup](#1-system-setup)
 - [2. Event Definitions](#2-event-definitions)
   - [2.1 RF Events](#21-rf-events)
   - [2.2 Gradient Events](#22-gradient-events)
-  - [2.3 ADC Event and Delay](#23-adc-event-and-delay)
+  - [2.3 ADC and Delay Events](#23-adc-and-delay-events)
 - [3. Sequence Construction](#3-sequence-construction)
   - [3.1 Sequence Building](#31-sequence-building)
   - [3.2 Writing Sequence to an External File](#32-writing-sequence-to-an-external-file)
@@ -28,6 +26,15 @@ This repository contains a Jupyter notebook that demonstrates how to set up and 
   - [4.2 Making a Custom Phantom](#42-making-a-custom-phantom)
   - [4.3 Converting the Phantom into Simulation Data](#43-converting-the-phantom-into-simulation-data)
 - [5. Simulating the Sequence](#5-simulating-the-sequence)
+- [6. Installation and Requirements](#6-installation-and-requirements)
+
+## 0. Installation and Requirements
+
+Before running any of the notebooks, ensure that you have installed the necessary dependencies. You can install them directly by running:
+
+```bash
+pip install -r requirements.txt
+```
 
 ## 1. System Setup
 
