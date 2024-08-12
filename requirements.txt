@@ -1,0 +1,8 @@
+torch
+torchvision
+torchaudio
+MrzeroCore
+pypulseq==1.3.1.post1
+torchkbnufft==1.3.0 --no-deps
+scikit-image
+PyWavelets
