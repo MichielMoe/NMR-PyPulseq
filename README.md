@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository contains a Jupyter notebook that demonstrates how to set up and simulate magnetic resonance (MR) sequences using the `pypulseq` and `MRzeroCore` libraries. The notebook guides users through configuring system parameters, defining various MR events, constructing sequences, and simulating MR data using custom or pre-defined phantoms.
+This repository contains a Jupyter notebook that demonstrates how to set up and simulate magnetic resonance (MR) sequences using the `pypulseq` and `MRzeroCore` libraries. The notebook exercises guide users through configuring system parameters, defining various MR events, constructing sequences, and simulating MR data using custom or pre-defined phantoms.
 
 ### Key Sections
 
