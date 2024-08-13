@@ -16,29 +16,25 @@ Name Gradient Echo 1D
 1  0  1   0   0   0  0  0
 2  0  0   1   0   0  0  0
 3  0  0   2   0   0  1  0
-4  0  0   3   0   0  1  0
-5  0  0   2   0   0  1  0
-6  0  0   3   0   0  1  0
 
 # Format of RF events:
 # id amplitude mag_id phase_id delay freq phase
 # ..        Hz   ....     ....    us   Hz   rad
 [RF]
-1      987.456 1 2 500 0 0
+1      987.456 1 2 100 0 0
 
 # Format of trapezoid gradients:
 # id amplitude rise flat fall delay
 # ..      Hz/m   us   us   us    us
 [TRAP]
- 1     -43733.3 500 1000 500   0
- 2         6400 500 20000 500   0
- 3     -6728.21 500 19000 500   0
+ 1     -32176.9  10 1980  10   0
+ 2         6400  10 20000  10   0
 
 # Format of ADC events:
 # id num dwell delay freq phase
 # ..  ..    ns    us   Hz   rad
 [ADC]
-1 128 156250 500 0 0
+1 128 156250 20 0 0
 
 # Sequence Shapes
 [SHAPES]
